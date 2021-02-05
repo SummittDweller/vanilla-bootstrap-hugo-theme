@@ -102,7 +102,7 @@ ul.share-icons li > * .label {
 .share-btn.stumbleupon { background: #EB4823; }
 .share-btn.pinterest   { background: #BD081C; }
 .share-btn.reddit      { background: #ff5700; }
-.share-btn.email       { background: #dc3545; }
+.share-btn.email       { background: #ff0000; }
 .share-btn.whatsapp    { background: #25d366; }
 
 
@@ -113,4 +113,4 @@ ul.share-icons li > * .label {
 .share-btn.stumbleupon:hover { background: #d3401f; }
 .share-btn.pinterest:hover   { background: #AD0000; }
 .share-btn.reddit:hover      { background: #e54e00; }
-.share-btn.email:hover       { background: #bab280; }
+.share-btn.email:hover       { background: #c60000; }
