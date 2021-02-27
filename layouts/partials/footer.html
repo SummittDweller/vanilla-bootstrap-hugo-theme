@@ -5,4 +5,26 @@
     {{ .Site.Params.footerText | markdownify }}
   </div>
 </footer>
+
+
+<!-- delay execution of checkTweetDate until everything has rendered -->
+<!-- concept from https://stackoverflow.com/a/55049434 -->
+<script>
+  function delay() {
+    setTimeout(function() {
+        checkTweetDate();
+    }, 200);
+  }
+
+  if (document.readyState == 'complete') {
+    delay();
+  } else {
+    document.onreadystatechange = function () {
+      if (document.readyState === "complete") {
+        delay();
+      }
+    }
+  }
+</script>
+
 {{ end }}
